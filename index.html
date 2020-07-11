@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Stopwatch</title>
+    <link rel="stylesheet"  href="style.css">
+  </head>
+
+  <body>
+      
+    <div class="container">
+        <div class="head">
+            Stop Watch
+        </div>  
+      <h1 class="screen">
+        <span id="min">
+          0
+        </span>:<span id="sec">
+          0
+        </span>:<span id="msec">
+          0
+        </span>
+      </h1>
+      <div class="buttons">
+        <button id="start" onclick="start()">START</button>
+        <button id="stop" onclick="stop()">STOP</button>
+        <button id="reset" onclick="reset()">RESET</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
